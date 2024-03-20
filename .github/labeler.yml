@@ -1,8 +1,4 @@
 quantum:
-    - '(### Product\n\nQuantum)'
+  - '(### Product\n\nQuantum)'
 unix:
-    - '(### Product\n\nUnix)'
-carbon:
-    - '(### Product\n\nCarbon)'
-socialite:
-    - '(### Product\n\nSocialite)'
+  - '(### Product\n\nUnix)'

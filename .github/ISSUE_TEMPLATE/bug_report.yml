@@ -10,8 +10,6 @@ body:
       options:
         - Quantum
         - Unix
-        - Carbon
-        - Socialite
     validations:
       required: true
 
