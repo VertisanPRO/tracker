@@ -1,6 +1,6 @@
 name: Bug Report
 description: Create a report to see it being fixed
-labels: ["bug"]
+type: Bug
 body:
   - type: dropdown
     id: product
