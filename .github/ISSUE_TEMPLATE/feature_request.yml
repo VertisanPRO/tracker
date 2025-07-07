@@ -1,18 +1,8 @@
 name: Feature request
 description: Suggest a feature we can add
 type: Feature
+labels: [quantum, "P: unassigned", "D: unassigned"]
 body:
-  - type: dropdown
-    id: product
-    attributes:
-      label: Product
-      description: What product is this issue about?
-      options:
-        - Quantum
-        - Unix
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Describe the solution you'd like

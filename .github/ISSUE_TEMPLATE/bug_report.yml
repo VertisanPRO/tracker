@@ -1,18 +1,8 @@
 name: Bug Report
 description: Create a report to see it being fixed
 type: Bug
+labels: [quantum, "P: unassigned", "D: unassigned"]
 body:
-  - type: dropdown
-    id: product
-    attributes:
-      label: Product
-      description: What product is this issue about?
-      options:
-        - Quantum
-        - Unix
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Describe the issue
