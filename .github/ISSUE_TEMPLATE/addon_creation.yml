@@ -1,0 +1,18 @@
+name: Addon Creation
+description: Suggest an addon we can create
+type: Feature
+labels: [quantum, "P: unassigned", "D: unassigned", "addon"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the addon
+      description: A clear and concise description of what you want the addon to be
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Similar addons
+      description: Link any addons that are relevant to this addon
+    validations:
+      required: false
